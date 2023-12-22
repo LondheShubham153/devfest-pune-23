@@ -1,4 +1,4 @@
-# DevFest Pune 23 - Kubernetes Autopilot and Google Cloud Shell
+# DevFest Pune 23 - GKE Autopilot and Kustomize
 
 Welcome to the DevFest Pune 23 GitHub repository! This repository contains instructions and resources to help you get started with Google Kubernetes Engine (GKE) Autopilot and Google Cloud Shell. 
 
