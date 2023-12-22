@@ -1,10 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 metadata:
-  name: dev-mapping
+  name: prd-mapping
 
-namespace: sit
-namePrefix: sit-
+namespace: prd
+namePrefix: prd-
 
 replicas:
 - name: app-1-deployment
@@ -19,4 +19,4 @@ patches:
 - target:
     kind: Ingress
     name: app-ingress
-  path: sit-ingress-patch.json
+  path: prd-ingress-patch.json

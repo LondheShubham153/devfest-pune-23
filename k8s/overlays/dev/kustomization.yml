@@ -5,6 +5,9 @@ metadata:
 
 namespace: dev
 namePrefix: dev-
+replicas:
+- name: app-1-deployment
+  count: 1
 
 resources:
   - ../../base/app-1/
