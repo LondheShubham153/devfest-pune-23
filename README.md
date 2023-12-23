@@ -40,16 +40,17 @@ To install HELM, use the following commands:
 helm repo add helm https://helm.sh/helm
 # Update the repository
 helm repo update
+
 # Install nginx-controller
 To install the nginx-controller, use the following commands:
-helm install nginx nginx/ingress-nginx 
-```
-```bash
-Copy code
+
 # Add the nginx-controller repository
 helm repo add nginx https://kubernetes.github.io/ingress-nginx
 # Update the nginx-controller repository
 helm repo update
+
+helm install nginx nginx/ingress-nginx 
+
 # Search for the nginx-controller chart
 helm search repo nginx
 ```
